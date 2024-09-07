@@ -6,14 +6,13 @@ import About from "./components/About";
 export default function Home() {
   return (
     <div className="">
-      <div className="fixed w-screen h-screen">
+      {/* <div className="fixed w-screen h-screen">
         <BG />
-      </div>
+      </div> */}
 
       <div className="">
-        <div><Navbar/></div>
-        <div><About/></div>
-        
+        <Navbar />
+        <About />
       </div>
     </div>
   );
